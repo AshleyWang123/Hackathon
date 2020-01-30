@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home Page</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style2.css">
+</head>
+
+<body>
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">
+			<img src="static/imgs/Dyce.png" width="90" height="50" alt="">
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Let's Roll! <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="profile.html">Profile</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="preferences.html">Preferences</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="aboutus.html">About Us</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- WHO -->
+	<br>
+	<br>
+	<h1>
+		<center>
+			Here are your results!
+		</center>
+	</h1>
+	<div class="who">
+
+		<h4>Who...</h4>
+
+		<div class="shadow p-3 mb-5 bg-white rounded" id=who style="">
+			<img src="static/imgs/pp.jpg" class="card-img-top" alt="not working" style="object-fit=" cover"">
+			<div class="card-body">
+				<h5 class="card-title"> {{who}} </h5>
+				<p class="card-text"> DESCRIPTION </p>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="what">
+
+		<h4>What...</h4>
+
+		<div class="shadow p-3 mb-5 bg-white rounded" style="">
+			<img src={{what_image}} class="card-img-top" alt="not working" style="object-fit=" cover"">
+			<div class="card-body">
+				<h5 class="card-title"> {{what}} </h5>
+				<p class="card-text"> DESCRIPTION </p>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="where">
+
+		<h4>Where...</h4>
+
+		<div class="shadow p-3 mb-5 bg-white rounded" style="">
+			<img src={{where_image}} class="card-img-top" alt="not working" style="object-fit=" cover"">
+			<div class="card-body">
+				<h5 class="card-title"> {{where}} </h5>
+				<p class="card-text"> {{tags}} </p>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="when">
+
+		<h4>When...</h4>
+
+		<div class="shadow p-3 mb-5 bg-white rounded" style="">
+			<img src="static/imgs/calendar.jpg" class="card-img-top" alt="not working" style="object-fit=" cover"">
+			<div class="card-body">
+				<h5 class="card-title"> DATE </h5>
+				<p class="card-text"> TIME </p>
+			</div>
+		</div>
+
+	</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+<events>
+<event name="Skiing" tags="balance concentration" image="skiing.jpg"/>
+<event name="Windsurfing" tags="balance concentration swimming" image="where4.jpg"/>
+<event name="Coffee" tags="friendliness" image="coffee.jpg"/>
+<event name="Netflix Viewing" tags="social" image="netflix.jpg"/>
+</events>

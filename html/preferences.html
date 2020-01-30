@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel=stylesheet type=text/css href="../css/style2.css">
+    <title>Preferences</title>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="../imgs/Dyce.png" width="90" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="roll_results.html">Let's Roll!</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Preferences <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <!-- HEADING -->
+    <h1>
+        <center>
+            Preferences
+        </center>
+    </h1>
+    <p>
+        <center>
+            Hello ( USERNAME ), to improve your experience, please enter the relevant information. This will be used to help suggest activities that are more appropiate for your interests & accesibility necessities
+        </center>
+    </p>
+
+    <!-- DETAILS -->
+    <div class="card" name="activities">
+        <div class="card-body">
+            <h5 class="card-title">
+                Please enter your general details:
+            </h5>
+
+            <form>
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="validationDefault01">First name</label>
+                  <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationDefault02">Last name</label>
+                  <input type="text" class="form-control" id="validationDefault02" placeholder="Last name" value="Zuckyboy" required>
+                </div>
+
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationDefault03">City</label>
+                  <input type="text" class="form-control" id="validationDefault03" placeholder="City" required>
+                </div>
+
+              </div>
+
+              <button class="btn btn-primary" type="submit">Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- MENTAL HEALTH -->
+    <div class="card" name="mentalhealth">
+        <div class="card-body">
+            <h5 class="card-title">
+                Mental health can be much easier to discuss with someone who struggles with it too. Would you like to provide us with with any mental health issues you may have?
+            </h5>
+
+            <form>
+                <div class="form-group">
+                    <input type="checkbox" name="" value="">Depression <br>
+                    <input type="checkbox" name="" value="">Bipolar Disorder <br>
+                    <input type="checkbox" name="" value="">Anxiety <br>
+                    <input type="checkbox" name="" value="">Stress <br>
+                    <input type="checkbox" name="" value="">Eating & Body Image <br>
+                    <input type="checkbox" name="" value="">Psychosis<br>
+                    <input type="checkbox" name="" value="">N/A <br>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- DISABILITIES -->
+    <div class="card" name="disabilities">
+        <div class="card-body">
+            <h5 class="card-title">
+                Feel free to make us aware of any disabilities or accesibility preferences that are necessary so that we can improve your experience
+            </h5>
+
+            <form>
+                <div class="form-group">
+                    <input type="checkbox" name="" value="">Autism <br>
+                    <input type="checkbox" name="" value="">ADHD <br>
+                    <input type="checkbox" name="" value="">Learning Difficulties <br>
+                    <input type="checkbox" name="" value="">Wheelchair Accessibilites <br>
+                    <input type="checkbox" name="" value="">Visual Impairness <br>
+                    <input type="checkbox" name="" value="">Colour Blindness <br>
+                    <input type="checkbox" name="" value="">N/A<br>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
